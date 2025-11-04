@@ -134,7 +134,6 @@
   border: 1px solid white;
   color: white;
   padding: 12px 32px 11px 31px;
-  font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
   justify-content: flex-end;
@@ -145,7 +144,6 @@
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .lots {
@@ -181,7 +179,6 @@
   line-height: 120%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   text-decoration: underline;
@@ -245,11 +242,8 @@
 .about {
   display: flex;
   gap: 72px;
-  max-width: 1200px;
   margin: 0 auto;
   align-items: flex-start;
-  width: 100%;
-  height: 100%;
   padding: 120px 24px 180px 24px;
   width: 1052px;
   height: 595px;
