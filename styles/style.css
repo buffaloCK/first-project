@@ -1,15 +1,14 @@
 body {
   min-width: 1100px;
-  overflow-x: auto; 
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  width: 100%;
 }
 
 .header {
@@ -112,7 +111,7 @@ body {
 
 .aligned-text_right {
   text-align: right;
-    margin-top: 21px;
+  margin-top: 21px;
   margin-left: 20px;
 }
 
@@ -324,16 +323,15 @@ body {
   margin-left: 24px;
 }
 
-
 .address {
   justify-self: start;
   font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-line-height: 24.3px;
-letter-spacing: 0%;
-margin-top: 38px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+  margin-top: 38px;
 }
 
 .footer__social-list {
@@ -350,9 +348,9 @@ margin-top: 38px;
 }
 
 .footer__menu {
-justify-self: center;
-margin-top: 6px;
-margin-right: 50px;
+  justify-self: center;
+  margin-top: 6px;
+  margin-right: 50px;
 }
 
 .footer__menu-link_active {
