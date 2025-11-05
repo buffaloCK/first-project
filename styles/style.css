@@ -1,3 +1,8 @@
+html {
+  min-width: 1100px;
+  overflow-x: auto;
+}
+
 body {
   min-width: 1100px;
   margin: 0;
@@ -6,8 +11,6 @@ body {
 }
 
 .container {
-  overflow-x: auto;
-  white-space: nowrap;
   width: 100%;
   min-width: 1100px;
 }
