@@ -33,21 +33,19 @@ body {
   min-width: 1100px;
 }
 
-/* ДОБАВЬТЕ ЭТИ СТРОКИ - min-width для всех основных блоков */
 .cover {
   background-image: url("/images/cover.jpg");
   background-size: cover;
   background-position: center;
   height: 757px;
-  width: 100%;
   position: relative;
-  min-width: 1100px; /* Добавлено */
+  min-width: 1100px; 
 }
 
 .lots {
   padding: 180px 24px 0px 24px;
   margin-top: 8px;
-  min-width: 1100px; /* Добавлено */
+  min-width: 1100px; 
 }
 
 .about {
@@ -56,16 +54,14 @@ body {
   margin: 35px 0 193px 47px;
   align-items: flex-start;
   padding: 120px 24px 180px 24px;
-  width: 1052px;
   height: 595px;
-  min-width: 1100px; /* Добавлено */
+  min-width: 1100px; 
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  width: 1100px;
   height: 180px;
   padding: 0px 24px 0 24px;
   margin-top: 205px;
@@ -73,7 +69,6 @@ body {
   min-width: 1100px;
 }
 
-/* Остальные ваши стили остаются без изменений */
 .header__links-list {
   display: flex;
   flex-direction: row;
