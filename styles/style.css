@@ -187,7 +187,7 @@ html {
   letter-spacing: 0%;
   text-transform: uppercase;
   padding: 0px 891px 27px 40px;
-  margin-top: -8px;
+  margin-top: 2px;
 }
 
 .card {
@@ -197,7 +197,7 @@ html {
   color: white;
   position: relative;
   justify-content: center;
-  margin-top: 6px;
+  margin-top: 2px;
 }
 
 .card__title {
@@ -337,7 +337,7 @@ html {
 .address__footer {
   line-height: 24.3px;
   letter-spacing: 0%;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
 }
 
 .footer__social-list {
@@ -347,6 +347,7 @@ html {
   padding-right: 50px;
   justify-self: end;
   margin-top: -8px;
+  margin-right: -24px;
 }
 
 .footer__social-icon {
@@ -357,7 +358,7 @@ html {
 .footer__menu {
   justify-self: center;
   margin-top: 2px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .footer__menu-link_active {
